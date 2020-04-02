@@ -1,0 +1,119 @@
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.top-header {
+    max-height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-header a {
+    color: #5b6987;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.top-header a:hover,
+.nav-menu   a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.top-header p {
+    margin-bottom: 0;
+}
+
+.new {
+    font-size: 9px;
+    color:blue;
+    padding:5px 8px;
+    background-color: #00d7d2;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.overflow {
+    white-space: nowrap;
+}
+
+.nav-responsive,
+.dekstop-nav {
+    max-height: 60px;
+    min-height: 60px;
+    padding: 15px 15px;
+}
+
+.nav-responsive {
+    background-color: blue;
+}
+
+.navbar-header {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.navbar-toggle {
+    margin: 0;
+    padding: 0;
+}
+
+.toggle {
+    padding-top: 7px;
+}
+
+.UnifiedNav-logoSVG-1 {
+    fill: white;
+}
+
+.icon-bar{
+    background-color: white;
+}
+
+.dekstop-nav {
+    background-color: white;
+}
+
+.UnifiedNav-logoSVG-2 {
+    fill: #0069ff;
+}
+
+.menu ul {
+    line-height: 33px;
+    padding-left: 70px;
+    white-space: nowrap;
+}
+
+.menu .fas {
+    margin-left: 5px;
+}
+
+.list-inline >li {
+    padding-left: 20px;
+    padding-right: 0;
+
+}
+
+.nav-menu a {
+    color: #031b4e;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-sign-up {
+    background-color: white;
+    border: 1px solid #0069ff;
+    color: #0069ff;
+    font-weight: bold;
+    padding: 6px 14px;
+    transition: background-color .25s linear, color .25s linear;
+}
+
+.btn-sign-up:hover {
+    background-color: #0069ff;
+    color: white;
+}
