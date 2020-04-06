@@ -1,3 +1,12 @@
+body {
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+}
+
+.list-unstyled {
+    padding-left: 15px;
+}
+
 .right {
     float: right;
 }
@@ -6,10 +15,53 @@
     float: left;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.fix {
+    width:100%;
+    z-index: 1;
+}
+
+h2 {
+    color: rgb(3, 27, 78);
+    padding-bottom: 15px;
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(3, 27, 78);
+}
+
+.h3 {
+    font-size: 20px;
+}
+
+section {
+    padding: 80px 0 ;
+}
+
+section:first-of-type {
+    padding: 50px 0 ;
+}
+
+header {
+    background-color: #0248ff;
+    position: relative;
+
+}
+
 .top-header {
     max-height: 40px;
     line-height: 40px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 .top-header a {
@@ -39,6 +91,8 @@
 
 .overflow {
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .nav-responsive,
@@ -49,7 +103,8 @@
 }
 
 .nav-responsive {
-    background-color: blue;
+    background-color: transparent;
+    padding-top:45px;
 }
 
 .navbar-header {
@@ -75,7 +130,7 @@
 }
 
 .dekstop-nav {
-    background-color: white;
+    background-color: #fff;
 }
 
 .UnifiedNav-logoSVG-2 {
@@ -104,6 +159,10 @@
     font-weight: bold;
 }
 
+.sign-up {
+    padding-right: 0;
+}
+
 .btn-sign-up {
     background-color: white;
     border: 1px solid #0069ff;
@@ -116,4 +175,518 @@
 .btn-sign-up:hover {
     background-color: #0069ff;
     color: white;
+}
+
+.jumbo {
+    padding-bottom: 50px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 0;
+    margin-bottom: 15px;
+
+}
+
+.jumbotron p {
+    color: #fff;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+}
+
+.jumbotron p {
+    font-size: 24px;
+}
+
+.jumbo form {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 6px;
+}
+
+form .h2 {
+    color: rgb(3, 27, 78);
+    padding-bottom: 15px;
+}
+
+.form-control {
+  font-size: 16px;
+  height: 48px;
+}
+
+.form-control:focus {
+    border-color: #0069ff;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #0069ff;
+    transition: background-color .25s linear;
+}
+
+.btn-primary:hover {
+    background-color: #1633ff;
+}
+
+#sign-choice {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sign-choice::before,
+#sign-choice::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 100px) / 2);
+    height: 1px;
+}
+
+#sign-choice::before,
+#sign-choice::after {
+    background-color: rgba(0,105,255,.2);
+}
+
+#sign-choice::before {
+    left:0;
+}
+
+#sign-choice::after{
+    right: 0;
+}
+.sign-with {
+    margin: 30px 0px;
+}
+
+.sign-with .btn {
+    padding-left: 0;
+    width:48%;
+}
+
+.sign-with .btn:first-child {
+    margin-right: 2%;
+}
+
+
+.btn-social {
+    width: 100%;
+    background-color: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+    color: rgb(3, 27, 78);
+    transition: background-color .25s linear;
+}
+
+.btn-social:hover {
+    color: rgb(3, 27, 78);
+    background-color: #d5e4f7;
+}
+
+.terms {
+    color: #1fa5ff;
+    text-decoration: underline;
+}
+
+#partners {
+    background-color: #f3f5f9;
+}
+
+
+.partners p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.element-img {
+    height: auto;
+    padding: 20px 0 ;
+}
+
+.element-img div:last-child img{
+    transform: translateY(-80%);
+}
+
+.element-img div:nth-last-child(2) img {
+    transform: translateY(+28%);
+}
+
+.element-img img {
+    padding-left: 15px;
+}
+
+.img-responsive {
+    max-width: 70%;
+}
+
+.solutions {
+    color: #0069ff;
+    font-size: 16px;
+}
+
+.solutions:hover {
+    color: #005fe6;
+    text-decoration: none;
+
+}
+
+.list-configuration{
+    padding-top: 80px;
+
+}
+
+.list-configuration li {
+    padding: 17px 10px 17px 30px;
+    border-left: 2px solid rgba(3,27,78,.1);
+}
+
+.list-configuration > li > a {
+    width:100%;
+    color: rgba(3,27,78,.5);
+    font-size: 16px;
+    transition: color .25s linear;
+}
+
+.list-configuration > li:hover > a {
+    color:#031b4e;
+    text-decoration: none;
+}
+
+.list-configuration > .active {
+    border-left: 2px solid #031b4e;
+}
+
+.list-configuration > .active > a {
+    color: #031b4e;
+}
+
+.deploy {
+    padding-top: 30px;
+}
+
+.deploy > div {
+    padding-top: 30px;
+}
+
+#carousel-1 {
+    background-color: #f3f5f9;
+}
+
+.carousel img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 64px;
+    cursor: grab;
+}
+
+.dots .far {
+    font-size: 10px;
+    color: #0069ff;
+    cursor: pointer;
+}
+
+.dots .far:hover {
+    background-color: rgba(0,105,255,.2);
+    border-radius: 50%;
+}
+
+.business{
+    margin-top:35px;
+}
+
+.business div {
+    padding: 20px;
+}
+
+#data-centers {
+    background-color: #031b4e;
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg)
+}
+
+#data-centers h2 {
+    color: white;
+    margin-bottom: 35px;
+}
+
+.data-centers-title{
+    margin: auto;
+    max-width: 700px;
+    letter-spacing: 1.2px
+}
+
+.table-responsive {
+    border: none;
+}
+
+.table-responsive > .table > tbody > tr > td {
+    font-size: 13px;
+    padding: 11px 10px 10px;
+    color:white;
+    border: none;
+}
+
+.table-responsive > .table > tbody > tr {
+    border-top: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table-responsive > .table > tbody > tr:last-child {
+    border-bottom: none;
+}
+
+.table-responsive > .table > tbody > tr > td:first-child{
+    font-weight: 800;
+    width: 20%;
+
+}
+
+.table-responsive > .table > tbody > tr > td:nth-child(2) {
+    opacity: .6 ;
+}
+
+.table-responsive > .table > tbody > tr > td > a {
+    color: #00d7d2;
+    font-weight: 800;
+}
+
+#carousel-2 {
+    background-color: #f3f5f9;
+}
+
+.teams {
+    color:#0069ff;
+    text-decoration: underline;
+}
+
+.teams:hover {
+    color:#005fe6;
+}
+
+.carousel-wrap {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: rgba(3,27,78,.5);
+}
+
+.carousel-wrap img {
+    object-fit: contain;
+    max-width: 170px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.carousel-2 p:first-of-type {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.carousel-2 span:nth-of-type(2) {
+    font-size: 12px;
+}
+
+.carousel-wrap > div > div:last-child{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#carousel-2 .dots {
+    margin-top: 15px;
+}
+
+#get-start {
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    padding: 50px 0;
+    background-position: 90%;
+    background-attachment: scroll;
+}
+
+.get-started {
+    width:235px;
+    margin: auto;
+}
+
+.get-started h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.btn-info {
+    padding: 12px 16px;
+    background-color: white;
+    color: #0069ff;
+    font-size: 16px;
+    border: none;
+}
+
+footer {
+    background-color: #010e28;
+    color: rgba(255,255,255,.5);
+    padding: 80px 0 ;
+}
+
+footer hr {
+    border-color: rgba(255,255,255,.3);
+}
+
+footer ul li:first-child{
+    padding-bottom:15px;
+    color: white;
+}
+
+footer ul li:not(:first-child):hover {
+    color: white;
+}
+
+footer .row:first-child ul {
+    text-align: center;
+}
+
+.translated {
+    transform: translateY(-43%);
+}
+
+.footer-social-logo {
+    margin-top: 30px;
+}
+
+.social-logo {
+    fill: rgba(255,255,255,.5);
+}
+
+.social-logo:hover {
+    color: white;
+}
+
+.footer-logo,
+.footer-social-logo {
+    text-align: center;
+}
+
+
+
+#sign {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+
+@media all and (min-width:480px){
+    .col-xsm-6 {
+        width: calc((100% / 12) * 6)  ;
+    }
+}
+
+@media all and (min-width:768px) {
+
+    .element-img div:nth-child(2) img{
+        transform: translateY(-16%)
+    }
+
+    .element-img div:last-child img{
+        transform: translateY(+45%)
+    }
+
+    .element-img div:nth-last-child(2) img {
+        transform: translateY(-4%);
+    }
+
+
+
+}
+
+@media all and (min-width:992px) {
+
+    header {
+        background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        background-attachment: scroll;
+
+    }
+
+    .jumbo {
+        padding-top: 180px;
+        padding-bottom: 100px;
+    }
+
+    .jumbotron {
+        padding-top: 80px;
+    }
+
+    .jumbotron h1 {
+        font-size: 54px;
+    }
+
+    .deploy {
+        padding-top: 80px;
+    }
+
+    .deploy > div {
+        padding-top: 0px;
+    }
+
+    .carousel  {
+        position: relative;
+    }
+
+    .fa-angle-left {
+        position: absolute;
+        top: 50%;
+        left: -10%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.4)
+    }
+
+    .fa-angle-right {
+        position: absolute;
+        top: 50%;
+        right: -10%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .business div {
+        padding: 25px;
+    }
+
+    .footer-logo,
+    .footer-social-logo {
+        text-align: left;
+    }
+
+    .footer-logo {
+        float: left
+    }
+
+    .footer-social-logo {
+        float: right;
+    }
+
+    footer .row:first-child ul {
+        text-align: left;
+    }
+
+    .translated {
+        transform: translateY(0);
+    }
+
+
+}
+
+@media all and (min-width:1200px) {
+    .jumbotron h1 {
+        font-size: 64px;
+    }
 }
